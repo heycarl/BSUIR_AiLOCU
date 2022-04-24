@@ -133,24 +133,6 @@
     <comp lib="1" loc="(880,680)" name="OR Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="5" loc="(920,360)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(920,510)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(920,700)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="8" loc="(925,298)" name="Text">
-      <a name="text" val="Y2 = X5+X4 "/>
-    </comp>
-    <comp lib="8" loc="(932,646)" name="Text">
-      <a name="text" val="Y0 = x5 + x3x4' + x1x2'x4'"/>
-    </comp>
-    <comp lib="8" loc="(970,450)" name="Text">
-      <a name="text" val="Y1 = x1'x2'x3'x4x5' + x3x4'x5' + x2x4'x5'"/>
-    </comp>
     <wire from="(130,210)" to="(150,210)"/>
     <wire from="(150,210)" to="(150,240)"/>
     <wire from="(150,240)" to="(150,730)"/>
@@ -225,8 +207,5 @@
     <wire from="(880,340)" to="(920,340)"/>
     <wire from="(880,490)" to="(920,490)"/>
     <wire from="(880,680)" to="(920,680)"/>
-    <wire from="(920,340)" to="(920,360)"/>
-    <wire from="(920,490)" to="(920,510)"/>
-    <wire from="(920,680)" to="(920,700)"/>
   </circuit>
 </project>
